@@ -1,0 +1,109 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<!-- Required meta tags -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+			<link rel="icon" href="Bread-Lovers.ico">
+			<link rel="stylesheet" href="fontawesome/css/all.css">
+			<title>Orders &#124; Brevers</title>
+			<style>
+				body{font-family:Tekton Pro Ext;}
+			</style>
+		</head>
+		<body>
+			<nav class="navbar navbar-danger sticky-top bg-danger flex-md-nowrap p-0 shadow">
+				<a class="navbar-brand" style="color:white">
+					<img src="Bread Lovers.png" width="70" height="70"> Brevers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+				<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					<input class="form-control form-control-danger w-100" type="text" placeholder="Search" aria-label="Search">
+				<ul class="navbar-nav px-3">
+					<li class="nav-item text-nowrap">
+						<a class="nav-link" href="Home.html"><i class="fas fa-users"> Sign out</i></a>
+					</li>
+				</ul>
+			</nav>
+
+		<div class="container-fluid">
+			<div class="row">
+				<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse" style="line-height:2em; background-image:url(Woods.jpg); background-size:100%;">
+					<div class="sidebar-sticky pt-3" style="padding-bottom:30em;">
+					<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link active" href="DashboardCust.html"><span data-feather="home"></span><i class="fas fa-home mr-sm-2"></i>Dashboard<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Order.html"><i class="fas fa-shopping-cart mr-sm-2"></i>Orders</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Product.html"><i class="fab fa-product-hunt"></i> Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="HelpCenter.html"><i class="fas fa-info-circle"></i> Help Center</a>
+					</li>
+					</ul>
+					</div>
+				</nav>
+
+			<main role="main" class="col-md-9 ml-sm-auto bg-light col-lg-10 px-md-4 p-lg-0">
+				<div class="row" style="margin-top:2em; margin-bottom:2em;">
+					<div class="col-md-6 offset-md-3">
+					<h3>Masukkan Data Anda</h3>
+					<form role="form" method="post" action="Berhasilorder.html">
+						<div class="form-group mt-3">
+							<label>Nama Lengkap</label>
+							<input type="text" class="form-control" Placeholder="Nama Lengkap">
+						</div>
+						<div class="form-group">
+							<label>No. Hp</label>
+							<input type="text" class="form-control" Placeholder="No Hp">
+						</div>
+						<div class="form-group">
+							<label>Alamat</label>
+							<textarea class="form-control" placeholder="alamat"></textarea>
+						</div>
+						<tr>
+							<td><label>Jenis Product</label></td>
+							<td>
+							<fieldset>
+								<input type="checkbox" name="Donat"> Donat<br>
+								<input type="checkbox" name="RB"> Roti Baked<br>
+								<input type="checkbox" name="Cookie"> Cookie<br>
+								<input type="checkbox" name="baked"> Baked<br>
+								<input type="checkbox" name="bakery"> Bakery<br>
+								<input type="checkbox" name="Bread"> Bread
+							</fieldset>
+							</td>
+						</tr><br>
+						<div class="form-group">
+							<label>Jumlah Pesanan</label>
+							<input type="text" class="form-control" Placeholder="Contoh 10">
+						</div>
+						<div>
+							<td><label>Jenis Pembayaran</label></td><br>
+							<td><input type="radio" name="cs" id="cs"> COD<br>
+								<input type="radio" name="tf" id="tf"> Transfer<br>
+								<input type="radio" name="ovo" id="ovo"> Ovo<br>
+								<input type="radio" name="dana" id="dana"> Dana</td>
+						</div><br>
+						<div>
+							<label>Total Bayar</label>
+							<input type="text" class="form-control" Placeholder="Rp. 80.000">
+						</div><br>
+						<button class="btn btn-warning my-2 my-sm-1" type="submit">Order Now</button>
+					</form>
+					</div>
+				</div>
+			</main>
+			  <!-- Script -->
+			  <script src="bootstrap/js/jquery.min.js"></script>
+			  <script src="bootstrap/js/popper.min.js"></script>
+			  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+	    </body>
+	</html>

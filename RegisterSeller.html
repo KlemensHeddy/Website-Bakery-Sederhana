@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="Bread-Lovers.ico">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Register Seller &#124; Brevers</title>
+    <style>
+        body{font-family:Tekton Pro Ext;
+			 background-image:url(Woods.jpg);
+			 background-size:100%;}
+    </style>
+</head>
+
+<body>
+    <div
+        class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 fixed-top bg-danger text-white border-bottom shadow-sm">
+        <a class="navbar-brand">
+            <img src="Bread Lovers.png" width="70" height="70">
+        </a>
+        <h4 class="my-0 mr-md-auto font-weight-normal">Brevers</h4>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="ProductLogin.html">Product</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ml-2" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="RegisterSeller.html">Seller</a>
+                    <a class="dropdown-item" href="RegisterCustomer.html">Customer</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" id="navbardrop"
+                    role="button" aria-haspopup="true" aria-expanded="false">Login</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="LoginSeller.html">Seller</a>
+                    <a class="dropdown-item" href="LoginCustomer.html">Customer</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Bantuan</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Bantuan.html">Bantuan</a>
+                    <a class="dropdown-item" href="FAQ.html">FAQ</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-warning my-2 my-sm-1" type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="row" style="margin-top:9em; margin-bottom:2em;">
+        <div class="col-md-6 offset-md-3">
+            <h3>Register Seller</h3>
+            Sudah Punya akun&#63; &#124;
+            <a class="text-danger" href="LoginSeller.html">Login</a>
+            <form role="form" method="post" action="LoginSeller.html">
+                <div class="form-group mt-3">
+                    <label>Nama Lengkap</label>
+                    <input type="text" class="form-control" Placeholder="Nama Lengkap">
+                </div>
+                <div class="form-group mt-3">
+                    <label>Nama Toko</label>
+                    <input type="text" class="form-control" Placeholder="Nama Toko">
+                </div>
+                <div class="form-group mt-3">
+                    <label>Deskripsi Toko</label>
+                    <textarea type="" class="form-control" Placeholder="Deskripsi tentang Toko anda"></textarea>
+                </div>
+                <div class="form-group mt-3">
+                    <label>Tanggal Lahir</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>No. Hp</label>
+                    <input type="text" class="form-control" Placeholder="No Hp">
+                </div>
+                <div class="form-group">
+                    <label>E-Mail</label>
+                    <input type="email" class="form-control" Placeholder="e-mail">
+                </div>
+                <div class="form-group">
+                    <label>Jenis Kelamin</label><br>
+                    <input type="radio" name="jk"> Laki&#45;laki
+                    <input type="radio" name="jk" class="ml-4"> Perempuan
+                </div>
+                <div class="form-group">
+                    <label>Alamat</label>
+                    <textarea class="form-control" placeholder="alamat"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" class="form-control" Placeholder="username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" Placeholder="password">
+                </div>
+                <div class="form-group">
+                    <label>Konfirmasi Password</label>
+                    <input type="password" class="form-control" Placeholder="Konfirmasi password">
+                </div>
+                <button class="btn btn-warning my-2 my-sm-1" type="submit">Register As Seller</button>
+            </form>
+        </div>
+    </div>
+		<div class="row bg-danger text-white" style="text-align:center; padding:.6em;">
+			<div class="col-md-12">
+				<small>&copy; Copyright 2020 Brevers</small>
+			</div>
+		</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
